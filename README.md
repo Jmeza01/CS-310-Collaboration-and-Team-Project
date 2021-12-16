@@ -99,8 +99,7 @@ git push origin
 ### ** Remote **
 
 // link local repository to remote repository on Github (requires a blank repository made on Github - ex: WeightTracker)
-git remote add origin https://github.com/gaut2172/WeightTracker.git
-
+git remote add origin (Weight Tracker link)
 // list remote repositories
 git remote
 
