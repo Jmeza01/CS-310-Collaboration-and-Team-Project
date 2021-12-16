@@ -99,8 +99,7 @@ git push origin
 ### ** Remote **
 
 // link local repository to remote repository on Github (requires a blank repository made on Github - ex: WeightTracker)
-git remote add origin (Weight Tracker link)
-// list remote repositories
+git remote add origin https://github.com/Jmeza01/WeightTracker.git// list remote repositories
 git remote
 
 // list all remote github sites configured
@@ -132,10 +131,10 @@ git pull
 ### ** Ignore file in commits **
 
 // ignore changes to ALREADY TRACKED file
-git update-index --skip-worktree C:/Users/gaut2/IdeaProjects/InventoryManagementSys/src/main/java/inventory/services/DBConnection.java
+git update-index --skip-worktree C:/Users/Jmeza01/IdeaProjects/InventoryManagementSys/src/main/java/inventory/services/DBConnection.java
 
 // check to make sure file is ignored
 git ls-files -v | grep ^S
 
 // undo ignore and start tracking file again
-git update-index --no-skip-worktree C:/Users/gaut2/IdeaProjects/InventoryManagementSys/src/main/java/inventory/services/DBConnection.java
+git update-index --no-skip-worktree C:/Users/Jmeza01/IdeaProjects/InventoryManagementSys/src/main/java/inventory/services/DBConnection.java
