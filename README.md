@@ -1,5 +1,5 @@
 # Collaboration and Team Project
-** Basic commands **
+### ** Basic commands **
 
 // start a git repository (go to folder, start bash, type this):
 git init
@@ -23,7 +23,7 @@ git rm --cached index.html
 git diff
 
 
-** Commits **
+### ** Commits **
 
 // show commit history
 git reflog
@@ -56,7 +56,7 @@ git log --oneline
 
 
 
-** Branches **
+### ** Branches **
 
 // look at different branch called "login"
 git checkout login
@@ -73,7 +73,7 @@ git diff master origin/master
 
 
 
-** Merge Branches **
+### ** Merge Branches **
 
 // To update main branch with feature-1 branch, checkout main because that is the branch you want to merge into
 git checkout main
@@ -84,7 +84,7 @@ git merge feature-1
 
 
 
-** Git Conflicts **
+### ** Git Conflicts **
 
 // After a merge, there may be conflicts
 // First, fix the file that had the conflicts (delete the nonsense git generated, and delete line(s) of choice). Then commit the changes you made:
@@ -96,7 +96,7 @@ git push origin
 
 
 
-** Remote **
+### ** Remote **
 
 // link local repository to remote repository on Github (requires a blank repository made on Github - ex: WeightTracker)
 git remote add origin https://github.com/gaut2172/WeightTracker.git
@@ -130,7 +130,7 @@ git pull
 
 
 
-** Ignore file in commits **
+### ** Ignore file in commits **
 
 // ignore changes to ALREADY TRACKED file
 git update-index --skip-worktree C:/Users/gaut2/IdeaProjects/InventoryManagementSys/src/main/java/inventory/services/DBConnection.java
